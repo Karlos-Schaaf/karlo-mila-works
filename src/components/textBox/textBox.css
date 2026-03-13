@@ -1,0 +1,11 @@
+.text-box {
+  font-family: serif;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 16px 0;
+  border-left: 4px solid #038793; /* optional accent bar */
+  background-color: rgba(3, 135, 147, 0.05); /* subtle tinted background */
+  color: #333;
+  border-radius: 6px;
+}
