@@ -1,29 +1,109 @@
-.hero-container {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 24px;
-  
-  margin-top: 40%;      
-}
-
-.hero-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 .portrait-image {
   width: 20%;
   height: auto;
   display: block;
   margin: 24px auto;
   border-radius: 8px;
+
 }
 
 .text-box {
-  max-width: 800px; /* keeps long text readable */
+  max-width: 800px;
   margin: 24px auto;
+}
+
+.quote-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 2rem;
+  margin: 4rem 0;
+  background: linear-gradient(
+    180deg,
+    rgba(95, 111, 122, 0.08),
+    rgba(95, 111, 122, 0.03)
+  );
+}
+
+
+.text-box {
+  max-width: 800px;
+  margin: 24px auto;
+}
+
+.quote-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 2rem;
+  margin: 4rem 0;
+  background: linear-gradient(
+    180deg,
+    rgba(95, 111, 122, 0.08),
+    rgba(95, 111, 122, 0.03)
+  );
+}
+
+.bio-section {
+  display: flex;
+  align-items: stretch;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #eef1f3;
+  border-radius: 12px;
+}
+
+.bio-text {
+  flex: 1;
+  display: flex;
+}
+
+.bio-text .text-box {
+  margin: 0;
+  width: 100%;
+}
+
+.bio-image-wrapper {
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.portrait-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 2px;
+  display: block;
+  border-radius: 2px;
+  border: 2px solid rgba(3, 135, 147, 0.3);
+}
+
+.image-box {
+  padding: 20px;
+  
+  background-color: rgba(3, 135, 147, 0.05);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-frame {
+  padding: 8px;
+  background-color: rgba(3, 135, 147, 0.15);
+  border-radius: 10px;
+  border: 1px solid rgba(3, 135, 147, 0.3);
+}
+
+
+.bio-text .text-box:last-child {
+  border-bottom: 2px solid #038793;
 }

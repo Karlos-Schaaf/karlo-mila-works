@@ -1,0 +1,36 @@
+.read-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.read-page .text-box {
+  margin: 0 0 1.5rem 0;
+  border-left: 4px solid #038793;
+  background-color: rgba(3, 135, 147, 0.05);
+  padding: 1.5rem 2rem;
+  border-radius: 6px;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #2c2c2c;
+}
+
+.read-page .text-box p {
+  margin: 0 0 1rem 0;
+}
+
+.read-page .text-box p:last-child {
+  margin-bottom: 0;
+}
+
+.read-page .text-box:first-child {
+  border-top: 2px solid #038793;
+}
+
+.read-page .text-box:last-child {
+  border-bottom: 2px solid #038793;
+}
+
+.read-content {
+  margin-top: 2rem;
+}

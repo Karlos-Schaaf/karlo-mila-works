@@ -1,0 +1,73 @@
+.poem-section {
+  width: 100%;
+  padding: 5rem 2rem;
+  box-sizing: border-box;
+  background-color: #f7f5f0;
+}
+
+.poem-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.poem-image-wrapper {
+  flex: 0 0 200px;
+  position: sticky;
+  top: 120px;
+}
+
+.poem-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+  display: block;
+  background-color: #f7f5f0;
+}
+
+.poem-content {
+  flex: 1;
+  text-align: left;
+}
+
+.poem-title {
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2c2c2c;
+  margin: 0 0 0.25rem 0;
+}
+
+.poem-collection {
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #888;
+  margin: 0 0 1.5rem 0;
+}
+
+.poem-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.poem-line {
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.poem-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: rgba(3, 135, 147, 0.05);
+  border-left: 4px solid #014047;
+  border-top: 2px solid #014047;
+  border-bottom: 2px solid #014047;
+  border-radius: 6px;
+}

@@ -1,0 +1,45 @@
+.quote-section {
+  width: 100%;
+  background-color: #5f6f7a;
+  padding: 6rem 2rem;
+  box-sizing: border-box;
+}
+
+.quote-columns {
+  display: flex;
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.quote-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.quote-card {
+  margin: 0;
+  padding: 0;
+}
+
+.quote-text {
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-style: italic;
+  color: #f0ebe3;
+  margin: 0 0 0.75rem 0;
+}
+
+.quote-attribution {
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  color: #c8d8d8;
+}
+
+.quote-source {
+  font-style: italic;
+  font-weight: 300;
+}

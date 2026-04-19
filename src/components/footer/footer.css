@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  background-color: #5f6f7a;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.footer-inner {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-text {
+  font-family: Georgia, serif;
+  font-size: 0.9rem;
+  color: #d0d8da;
+  margin: 0;
+  font-style: italic;
+}
+
+.footer-divider {
+  color: #d0d8da;
+  margin: 0;
+}

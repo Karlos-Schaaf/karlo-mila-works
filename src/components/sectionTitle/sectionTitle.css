@@ -1,0 +1,24 @@
+.section-title {
+  font-family: "Garamond", Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-style: italic;
+  color: #2c2c2c;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  letter-spacing: 0.05em;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 2px;
+  background-color: #022b2e;
+  border-radius: 2px;
+}

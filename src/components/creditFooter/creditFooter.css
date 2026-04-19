@@ -2,8 +2,8 @@
   font-size: 14px;
   color: #555;             /* subtle grey */
   text-align: center;
-  margin-top: 12px;        /* space above footer */
-  margin-bottom: 24px;     /* space below content */
+  margin-top: 10px;        /* space above footer */
+  margin-bottom: 10px;     /* space below content */
   font-style: italic;
   font-family: serif;
 }

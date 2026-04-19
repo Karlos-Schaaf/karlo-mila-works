@@ -1,10 +1,12 @@
 import React from "react";
 import "./TextBox.css";
 
-function TextBox({ text, className }) {
+function TextBox({ paragraphs, className }) {
   return (
     <div className={`text-box ${className || ""}`}>
-      {text}
+      {paragraphs.map((para, index) => (
+        <p key={index}>{para}</p>
+      ))}
     </div>
   );
 }
